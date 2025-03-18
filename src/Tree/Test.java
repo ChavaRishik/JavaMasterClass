@@ -23,6 +23,15 @@ public class Test {
             display(root.right, indent + "    ");
         }
     }
+    public static void display1(TreeNode root, String indent) {
+        System.out.println(indent + root.value);
+        if (root.left != null) {
+            display(root.left, indent + "    ");
+        }
+        if (root.right != null) {
+            display(root.right, indent + "    ");
+        }
+    }
 
 
 
